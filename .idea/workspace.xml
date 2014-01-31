@@ -64,10 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Week1.sc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Week1.sc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Week1.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.61374044" vertical-offset="142" max-vertical-offset="880">
+            <state line="42" column="21" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-14.416667" vertical-offset="195" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Week2.sc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Week2.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="24" selection-start="917" selection-end="917" vertical-scroll-proportion="0.7087228" vertical-offset="395" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -85,6 +94,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.scala" />
         <option value="$PROJECT_DIR$/src/Week1.sc" />
+        <option value="$PROJECT_DIR$/src/Week2.sc" />
       </list>
     </option>
   </component>
@@ -122,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,7 +167,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -181,13 +191,13 @@
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
   </component>
-  <component name="RunManager" selected="Worksheet.WS: Week1.sc">
-    <configuration default="false" name="WS: Week1.sc" type="WorksheetRunConfiguration" factoryName="Worksheet" temporary="true">
+  <component name="RunManager" selected="Worksheet.WS: Week2.sc">
+    <configuration default="false" name="WS: Week2.sc" type="WorksheetRunConfiguration" factoryName="Worksheet" temporary="true">
       <module name="scala-learning" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
       <setting name="worksheetOptions" value="" />
       <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="worksheetField" value="$PROJECT_DIR$/src/Week1.sc" />
+      <setting name="worksheetField" value="$PROJECT_DIR$/src/Week2.sc" />
       <RunnerSettings RunnerId="Run" />
       <RunnerSettings RunnerId="Run" />
       <RunnerSettings RunnerId="Run" />
@@ -198,6 +208,12 @@
       <RunnerSettings RunnerId="Run" />
       <RunnerSettings RunnerId="Run" />
       <RunnerSettings RunnerId="Run" />
+      <RunnerSettings RunnerId="Run" />
+      <RunnerSettings RunnerId="Run" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -253,14 +269,6 @@
       <setting name="worksheetField" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -272,6 +280,27 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -299,19 +328,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -348,19 +364,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -380,6 +383,19 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="false" name="RunConsole" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
       <module name="scala-learning" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
@@ -391,11 +407,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Scala Console.RunConsole" />
-      <item index="1" class="java.lang.String" itemvalue="Worksheet.WS: Week1.sc" />
+      <item index="1" class="java.lang.String" itemvalue="Worksheet.WS: Week2.sc" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Worksheet.WS: Week1.sc" />
+        <item index="0" class="java.lang.String" itemvalue="Worksheet.WS: Week2.sc" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -461,7 +477,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -495,6 +511,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Week1.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="63" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Week1.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="67" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="615">
@@ -535,21 +565,28 @@
         <state line="18" column="19" selection-start="807" selection-end="807" vertical-scroll-proportion="0.26049203" vertical-offset="0" max-vertical-offset="691" />
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="227" column="13" selection-start="9949" selection-end="9949" vertical-scroll-proportion="0.31114328" vertical-offset="2845" max-vertical-offset="8055" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../scala-2.10.3/src/scala-library-src.jar!/scala/Char.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="8" selection-start="3687" selection-end="3689" vertical-scroll-proportion="0.10676692" vertical-offset="1489" max-vertical-offset="9525">
+        <state line="110" column="8" selection-start="3687" selection-end="3689" vertical-scroll-proportion="0.10676692" vertical-offset="1489" max-vertical-offset="9525" />
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="18" selection-start="10169" selection-end="10177" vertical-scroll-proportion="0.5788712" vertical-offset="3204" max-vertical-offset="9129">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Week1.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.61374044" vertical-offset="142" max-vertical-offset="880">
+        <state line="42" column="21" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-14.416667" vertical-offset="195" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Week2.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="24" selection-start="917" selection-end="917" vertical-scroll-proportion="0.7087228" vertical-offset="395" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>

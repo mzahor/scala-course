@@ -42,8 +42,3 @@ def countChange(money: Int, coins: List[Int]): Int = {
       countChange(money, coins.tail)
   }
 }
-
-
-
-
-
